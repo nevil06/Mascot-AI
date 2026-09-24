@@ -1,0 +1,21 @@
+{
+  "name": "pitchcat",
+  "private": true,
+  "version": "0.0.1",
+  "description": "PitchCat – embeddable AI company representative mascot widget",
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "tools/*"
+  ],
+  "scripts": {
+    "dev": "npm --workspace=demo-site run dev",
+    "dev:api": "npm --workspace=@pitchcat/api run dev",
+    "dev:widget": "npm --workspace=@pitchcat/widget run dev",
+    "build": "npm --workspace=@pitchcat/shared run build && npm --workspace=@pitchcat/widget run build",
+    "build:widget": "npm --workspace=@pitchcat/widget run build"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

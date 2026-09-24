@@ -1,0 +1,23 @@
+{
+  "$schema": "https://mascot-ai.org/schema.json",
+  "id": "carbondot",
+  "name": "CarbonDot",
+  "mascot": {
+    "name": "Dot",
+    "avatar": "3d-cat"
+  },
+  "theme": {
+    "accent": "#00C48C",
+    "position": "bottom-right"
+  },
+  "goal": "represent_company_and_convert_visitors",
+  "tools": {
+    "pageScroll": true,
+    "leadCapture": true,
+    "calendarUrl": "https://calendly.com"
+  },
+  "proactive": true,
+  "inviteDelaySec": 4,
+  "knowledgeBase": "# CarbonDot Context\n- Overview: CarbonDot converts industrial flue gas CO2 into stable calcium carbonate mineral granules using ambient biocatalytic mineralization.\n- Energy: 40% lower energy penalty than conventional capture / DAC.\n- Funding: Raised $2.5M Seed round led by Planet Ventures. Valuation is confidential.\n- Pilot: Commercial pilot operating live in Rotterdam capturing 1,200 tons/yr. 3 paid enterprise pilot MOUs in place.\n- Technology: BioGranule modular 40-foot skids that bolt onto exhaust stacks. Enzyme runs at ambient temperatures to crystallize raw CO2 into ASTM C33 certified building aggregates for concrete.\n- Founders: Founded in 2024 by Dr. Aris Thorne (CEO, ex-TU Delft) and Maya Lin (CTO, ex-Climeworks). Head of Deployment is Raj Patel.",
+  "intents": ["investor", "customer", "partner", "general"]
+}
